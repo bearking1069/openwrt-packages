@@ -13,4 +13,3 @@ PKG_NAME:=luci-app-adbyby-plus
 include ../../luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
-
