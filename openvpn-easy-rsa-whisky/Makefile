@@ -11,7 +11,7 @@ PKG_SOURCE_URL:=https://github.com/OpenVPN/easy-rsa.git
 PKG_SOURCE_VERSION:=null
 
 PKG_NAME:=openvpn-easy-rsa
-PKG_VERSION:=3.0.8
+PKG_VERSION:=3.0.9
 PKG_RELEASE:=
 PKG_LICENSE:=GPL-2.0
 
