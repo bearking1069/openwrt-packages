@@ -6,7 +6,7 @@
 include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=LuCI support for V2ray Server
-LUCI_DEPENDS:=+xray-core
+LUCI_DEPENDS:=+sagernet-core
 LUCI_PKGARCH:=all
 
 include ../../luci.mk
