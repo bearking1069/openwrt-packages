@@ -6,9 +6,11 @@
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=n2n_v2 VPN Configuration module
-LUCI_DEPENDS:=+n2n-edge +n2n-supernode
+LUCI_TITLE:=n2n VPN Configuration module
+LUCI_DEPENDS:=+n2n
 LUCI_PKGARCH:=all
+
+PKG_NAME:=luci-app-n2n
 
 include ../../luci.mk
 
